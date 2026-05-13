@@ -4,6 +4,7 @@ import math
 import sys
 from pathlib import Path
 
+from bg3_patcher import __version__ as _APP_VERSION
 from bg3_patcher import lsx
 from bg3_patcher.merger import run_patch
 from bg3_patcher.models import PatchConfig, PatchValidationError, RaceAssignment
@@ -531,6 +532,13 @@ QLabel#appTitle {
     font-weight: bold;
     color: #ffffff;
     letter-spacing: 1px;
+}
+QLabel#appVersion {
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #6e6e6e;
+    letter-spacing: 0.4px;
+    padding-top: 2px;
 }
 QLabel#hint {
     font-size: 11px;
@@ -1947,9 +1955,18 @@ class MainWindow(QMainWindow):
         outer.setContentsMargins(16, 16, 16, 20)
         outer.setSpacing(0)
 
+        title_row = QHBoxLayout()
+        title_row.setContentsMargins(0, 0, 0, 0)
+        title_row.setSpacing(12)
         title = QLabel("BG3 ARMOR PATCHER")
         title.setObjectName("appTitle")
-        outer.addWidget(title)
+        ver_lbl = QLabel(f"v{_APP_VERSION}")
+        ver_lbl.setObjectName("appVersion")
+        ver_lbl.setToolTip("Application version")
+        title_row.addWidget(title, 0, Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter)
+        title_row.addStretch(1)
+        title_row.addWidget(ver_lbl, 0, Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignTop)
+        outer.addLayout(title_row)
         outer.addSpacing(16)
 
         self._build_vanilla_section(outer)
