@@ -1,0 +1,33 @@
+{
+  "vanilla_path": "C:\\BG3_Modding\\000_Mod_tools_progs\\Mod_tools_progs\\bg3-modders-multitool\\UnpackedData",
+  "output_dir": "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_Patches\\ZZZ_Lazy_Armor_Patcher",
+  "patch_name": "Text patch 5",
+  "mod_paths": [
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\DGB_Body_AkELkA_533a435e-8c13-bc21-7cfc-48c3a322e29a",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\SatyrRace"
+  ],
+  "priority_order": [
+    "C:\\BG3_Modding\\000_Mod_tools_progs\\Mod_tools_progs\\bg3-modders-multitool\\UnpackedData",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\DGB_Body_AkELkA_533a435e-8c13-bc21-7cfc-48c3a322e29a",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\SatyrRace"
+  ],
+  "race_assignments": [
+    {
+      "source_label": "DGB_Body_AkELkA_533a435e-8c13-bc21-7cfc-48c3a322e29a",
+      "source_path": "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\DGB_Body_AkELkA_533a435e-8c13-bc21-7cfc-48c3a322e29a",
+      "race_guids": [
+        "6d38f246-15cb-48b5-9b85-378016a7a78e",
+        "9a8bbeba-850c-402f-bac5-ff15696e6497"
+      ],
+      "include_all": false,
+      "use_vanilla_races": true
+    },
+    {
+      "source_label": "SatyrRace",
+      "source_path": "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\SatyrRace",
+      "race_guids": [],
+      "include_all": true,
+      "use_vanilla_races": false
+    }
+  ]
+}

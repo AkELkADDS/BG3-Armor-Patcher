@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/pyinstaller/
+build/pyinstaller_test/
+BG3_Armor_Patcher.exe
+BG3_Armor_Patcher/
+BG3_Armor_Patcher_Package/

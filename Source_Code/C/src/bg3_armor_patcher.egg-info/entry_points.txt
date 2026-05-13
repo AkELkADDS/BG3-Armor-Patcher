@@ -1,0 +1,3 @@
+[console_scripts]
+bg3-armor-patcher = bg3_patcher.cli:main
+bg3-armor-patcher-ui = bg3_patcher.ui.app:main

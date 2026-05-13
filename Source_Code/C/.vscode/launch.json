@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BG3 Armor Patcher UI (this workspace)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_ui.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "name": "BG3 Armor Patcher UI (Python)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_ui.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        }
+    ]
+}

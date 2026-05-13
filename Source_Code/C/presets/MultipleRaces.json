@@ -1,0 +1,65 @@
+{
+  "vanilla_path": "C:\\BG3_Modding\\000_Mod_tools_progs\\Mod_tools_progs\\bg3-modders-multitool\\UnpackedData",
+  "output_dir": "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_Patches\\ZZZ_Lazy_Armor_Patcher",
+  "patch_name": "Text patch 5",
+  "mod_paths": [
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\DGB_Body_AkELkA_533a435e-8c13-bc21-7cfc-48c3a322e29a",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\Breasty Clothes",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\SatyrRace",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\Tabaxi",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\Muscular_DGB_Bodytype_3and4_c086db60-e1f4-20f5-1643-19f7dadca37a"
+  ],
+  "priority_order": [
+    "C:\\BG3_Modding\\000_Mod_tools_progs\\Mod_tools_progs\\bg3-modders-multitool\\UnpackedData",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\DGB_Body_AkELkA_533a435e-8c13-bc21-7cfc-48c3a322e29a",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\SatyrRace",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\Tabaxi",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\Muscular_DGB_Bodytype_3and4_c086db60-e1f4-20f5-1643-19f7dadca37a",
+    "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\Breasty Clothes"
+  ],
+  "race_assignments": [
+    {
+      "source_label": "DGB_Body_AkELkA_533a435e-8c13-bc21-7cfc-48c3a322e29a",
+      "source_path": "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\DGB_Body_AkELkA_533a435e-8c13-bc21-7cfc-48c3a322e29a",
+      "race_guids": [
+        "6d38f246-15cb-48b5-9b85-378016a7a78e",
+        "9a8bbeba-850c-402f-bac5-ff15696e6497"
+      ],
+      "include_all": false,
+      "use_vanilla_races": true
+    },
+    {
+      "source_label": "Breasty Clothes",
+      "source_path": "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\Breasty Clothes",
+      "race_guids": [
+        "6d38f246-15cb-48b5-9b85-378016a7a78e"
+      ],
+      "include_all": false,
+      "use_vanilla_races": true
+    },
+    {
+      "source_label": "SatyrRace",
+      "source_path": "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\SatyrRace",
+      "race_guids": [],
+      "include_all": true,
+      "use_vanilla_races": false
+    },
+    {
+      "source_label": "Tabaxi",
+      "source_path": "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\Tabaxi",
+      "race_guids": [],
+      "include_all": true,
+      "use_vanilla_races": false
+    },
+    {
+      "source_label": "Muscular_DGB_Bodytype_3and4_c086db60-e1f4-20f5-1643-19f7dadca37a",
+      "source_path": "D:\\AkELkA_Mods\\BG3_Mods\\EqClass_Patcher\\Mods_for_Patcher\\Muscular_DGB_Bodytype_3and4_c086db60-e1f4-20f5-1643-19f7dadca37a",
+      "race_guids": [
+        "f98a5013-c4e7-470f-9930-0b0f5a067b6d",
+        "2b3aa322-ae96-4967-9b15-c282e8cca093"
+      ],
+      "include_all": false,
+      "use_vanilla_races": false
+    }
+  ]
+}
